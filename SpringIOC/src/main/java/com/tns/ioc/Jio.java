@@ -1,0 +1,20 @@
+package com.tns.ioc;
+
+public class Jio implements Sim {
+	
+public Jio() {
+		
+		System.out.println("Jio class Constructor");
+	}
+
+	public void calling() {
+		System.out.println("Jio Calling");
+		
+	}
+
+	public void data() {
+		System.out.println("Jio Data-Pack");
+		
+	}
+
+}
